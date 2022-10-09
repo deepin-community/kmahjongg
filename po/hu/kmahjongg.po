@@ -1,0 +1,598 @@
+#
+# Sári Gábor <saga@mail.externet.hu>, 1999.
+# Balázs Úr <urbalazs@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: KDE 4.3\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-06-17 00:14+0000\n"
+"PO-Revision-Date: 2012-06-12 19:52+0200\n"
+"Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
+"Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 1.4\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Szántó Tamás"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "taszanto@gmail.com"
+
+#: src/editor.cpp:70
+#, fuzzy, kde-format
+#| msgid "Edit Board Layout"
+msgctxt "@title:window"
+msgid "Edit Board Layout"
+msgstr "A táblaelrendezés módosítása"
+
+#: src/editor.cpp:110
+#, kde-format
+msgid "New board"
+msgstr "Új tábla"
+
+#: src/editor.cpp:117
+#, kde-format
+msgid "Open board"
+msgstr "Tábla megnyitása"
+
+#: src/editor.cpp:124
+#, kde-format
+msgid "Save board"
+msgstr "A tábla mentése"
+
+#: src/editor.cpp:134
+#, kde-format
+msgid "Select"
+msgstr "Kiválasztás"
+
+#: src/editor.cpp:139
+#, kde-format
+msgid "Cut"
+msgstr "Kivágás"
+
+#: src/editor.cpp:144
+#, kde-format
+msgid "Copy"
+msgstr "Másolás"
+
+#: src/editor.cpp:149
+#, kde-format
+msgid "Paste"
+msgstr "Beillesztés"
+
+#: src/editor.cpp:156
+#, kde-format
+msgid "Move tiles"
+msgstr "Elemek mozgatása"
+
+#: src/editor.cpp:160
+#, kde-format
+msgid "Add tiles"
+msgstr "Elemek hozzáadása"
+
+#: src/editor.cpp:163
+#, kde-format
+msgid "Remove tiles"
+msgstr "Elemek eltávolítása"
+
+#: src/editor.cpp:187
+#, kde-format
+msgid "Shift left"
+msgstr "Balra tolás"
+
+#: src/editor.cpp:193
+#, kde-format
+msgid "Shift up"
+msgstr "Felfelé tolás"
+
+#: src/editor.cpp:199
+#, kde-format
+msgid "Shift down"
+msgstr "Lefelé tolás"
+
+#: src/editor.cpp:205
+#, kde-format
+msgid "Shift right"
+msgstr "Jobbra tolás"
+
+#: src/editor.cpp:287
+#, kde-format
+msgid "Tiles: %1 Pos: %2,%3,%4"
+msgstr "Elemek: %1 Poz.: %2, %3, %4"
+
+#: src/editor.cpp:296
+#, kde-format
+msgid "Open Board Layout"
+msgstr "Táblaelrendezés megnyitása"
+
+#: src/editor.cpp:297 src/editor.cpp:335
+#, fuzzy, kde-format
+#| msgid ""
+#| "*.layout|Board Layout (*.layout)\n"
+#| "*|All Files"
+msgid "Board Layout (*.layout);;All Files (*)"
+msgstr ""
+"*.layout|Táblaelrendezés-fájl (*.layout)\n"
+"*|Minden fájl"
+
+#: src/editor.cpp:328
+#, kde-format
+msgid "You can only save with a even number of tiles."
+msgstr "Csak páros számú elemmel lehet menteni."
+
+#: src/editor.cpp:334 src/editor.cpp:346
+#, kde-format
+msgid "Save Board Layout"
+msgstr "A táblaelrendezés mentése"
+
+#: src/editor.cpp:345
+#, kde-format
+msgid "A file with that name already exists. Do you wish to overwrite it?"
+msgstr "Már létezik ilyen nevű fájl, felül szeretné írni?"
+
+#: src/editor.cpp:374
+#, kde-format
+msgid "The board has been modified. Would you like to save the changes?"
+msgstr "A tábla megváltozott, el szeretné menteni a módosításokat?"
+
+#: src/editor.cpp:382
+#, kde-format
+msgid "Save failed. Aborting operation."
+msgstr "A mentés nem sikerült. Félbeszakítom a műveletet."
+
+#: src/gameremovedtiles.cpp:127
+#, fuzzy, kde-format
+#| msgid "Remove tiles"
+msgid "Removed tiles"
+msgstr "Elemek eltávolítása"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_RandomLayout)
+#: src/gametype.ui:25
+#, kde-format
+msgid "Random Layout"
+msgstr "Véletlenszerű elrendezés"
+
+#. i18n: ectx: property (text), widget (QPushButton, getNewButton)
+#: src/gametype.ui:51
+#, kde-format
+msgid "&Get New Layouts"
+msgstr "Új &elrendezés letöltése"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: src/gametype.ui:60
+#, kde-format
+msgid "Preview"
+msgstr "Előnézet"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/gametype.ui:93
+#, kde-format
+msgid "Layout Details"
+msgstr "Az elrendezés részletei"
+
+#. i18n: ectx: property (text), widget (QLabel, labelAuthor)
+#: src/gametype.ui:113
+#, kde-format
+msgid "Author:"
+msgstr "Szerző:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelContact)
+#: src/gametype.ui:123
+#, kde-format
+msgid "Contact:"
+msgstr "E-mail cím:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelDescription)
+#: src/gametype.ui:133
+#, kde-format
+msgid "Description:"
+msgstr "Leírás:"
+
+#: src/gameview.cpp:135 src/gameview.cpp:246
+#, kde-format
+msgid "Ready. Now it is your turn."
+msgstr "Léptem - most Ön következik."
+
+#: src/gameview.cpp:157
+#, kde-format
+msgid "Undo operation done successfully."
+msgstr "A visszavonási művelet sikeresen befejeződött."
+
+#: src/gameview.cpp:162
+#, kde-format
+msgid "What do you want to undo? You have done nothing!"
+msgstr "Vissza akar vonni egy lépést? De hát nem is lépett!"
+
+#: src/gameview.cpp:196 src/kmahjongg.cpp:457
+#, kde-format
+msgid "Your computer has lost the game."
+msgstr "A számítógép vesztett."
+
+#: src/gameview.cpp:203
+#, kde-format
+msgid "Calculating new game..."
+msgstr "Az új játéktér felépítése folyik..."
+
+#: src/gameview.cpp:261
+#, kde-format
+msgid "Error generating new game!"
+msgstr "Nem sikerült létrehozni az új játékot!"
+
+#: src/gameview.cpp:366
+#, kde-format
+msgid "Demo mode. Click mousebutton to stop."
+msgstr "Demó üzemmód. Félbeszakítás egérkattintással."
+
+#: src/kmahjongg.cpp:140
+#, kde-format
+msgid "New Numbered Game..."
+msgstr "Új számozott játék..."
+
+#: src/kmahjongg.cpp:147
+#, kde-format
+msgid "Shu&ffle"
+msgstr "Ke&verés"
+
+#: src/kmahjongg.cpp:152
+#, kde-format
+msgid "Rotate View Counterclockwise"
+msgstr "Forgatás balra"
+
+#: src/kmahjongg.cpp:158
+#, kde-format
+msgid "Rotate View Clockwise"
+msgstr "Forgatás jobbra"
+
+#: src/kmahjongg.cpp:178
+#, kde-format
+msgid "&Board Editor"
+msgstr "&Táblaszerkesztő"
+
+#: src/kmahjongg.cpp:197
+#, kde-format
+msgid "Time: 0:00:00"
+msgstr "Idő: 0.00.00"
+
+#: src/kmahjongg.cpp:204
+#, kde-format
+msgid "Removed: 0000/0000"
+msgstr "Eltávolítva: 0000/0000"
+
+#: src/kmahjongg.cpp:211
+#, kde-format
+msgid "Game: 000000000000000000000"
+msgstr "Játék: 000000000000000000000"
+
+#: src/kmahjongg.cpp:224
+#, kde-format
+msgid "Time: "
+msgstr "Idő: "
+
+#: src/kmahjongg.cpp:230
+#, fuzzy, kde-format
+#| msgid "New Game"
+msgctxt "@title:window"
+msgid "New Game"
+msgstr "Új játék"
+
+#: src/kmahjongg.cpp:230
+#, kde-format
+msgid "Enter game number:"
+msgstr "Írja be a játék azonosítóját:"
+
+#: src/kmahjongg.cpp:265
+#, kde-format
+msgid "General"
+msgstr "Általános"
+
+#: src/kmahjongg.cpp:266
+#, kde-format
+msgid "Board Layout"
+msgstr "Elrendezés"
+
+#: src/kmahjongg.cpp:394
+#, fuzzy, kde-format
+#| msgid "Game over: You have no moves left."
+msgid "Game Over: You have no moves left."
+msgstr "Vége a játéknak: több lépés nem lehetséges."
+
+#: src/kmahjongg.cpp:395
+#, kde-format
+msgid "Game Over"
+msgstr ""
+
+#: src/kmahjongg.cpp:396
+#, kde-format
+msgid "New Game"
+msgstr "Új játék"
+
+#: src/kmahjongg.cpp:397
+#, kde-format
+msgid "Restart"
+msgstr ""
+
+#: src/kmahjongg.cpp:492
+#, kde-format
+msgid "You have won!"
+msgstr "Ön győzött!"
+
+#: src/kmahjongg.cpp:532
+#, kde-format
+msgid "Game number: %1"
+msgstr "A játék azonosítója: %1"
+
+#: src/kmahjongg.cpp:538
+#, kde-format
+msgid "Removed: %1/%2  Combinations left: %3"
+msgstr "Eltávolítva: %1/%2, a megmaradt párok száma: %3"
+
+#: src/kmahjongg.cpp:588
+#, fuzzy, kde-format
+#| msgid "Load Game"
+msgctxt "@title:window"
+msgid "Load Game"
+msgstr "Játék betöltése"
+
+#: src/kmahjongg.cpp:588 src/kmahjongg.cpp:663
+#, kde-format
+msgid "KMahjongg Game (*.kmgame)"
+msgstr ""
+
+#: src/kmahjongg.cpp:597
+#, kde-format
+msgid "Could not read from file. Aborting."
+msgstr "Nem sikerült egy fájlból olvasni. A művelet megszakadt."
+
+#: src/kmahjongg.cpp:608
+#, kde-format
+msgid "File is not a KMahjongg game."
+msgstr "Ez nem KMahjongg-fájl."
+
+#: src/kmahjongg.cpp:621
+#, kde-format
+msgid "File format not recognized."
+msgstr "Ismeretlen fájlformátum."
+
+#: src/kmahjongg.cpp:663
+#, fuzzy, kde-format
+#| msgid "Save Game"
+msgctxt "@title:window"
+msgid "Save Game"
+msgstr "Mentés"
+
+#: src/kmahjongg.cpp:673
+#, fuzzy, kde-format
+#| msgid "Could not read from file. Aborting."
+msgid "Could not open file for saving."
+msgstr "Nem sikerült egy fájlból olvasni. A művelet megszakadt."
+
+#. i18n: ectx: label, entry (TileSet), group (General)
+#: src/kmahjongg.kcfg:9
+#, kde-format
+msgid "The tile-set to use."
+msgstr "A használni kívánt elemkészlet."
+
+#. i18n: ectx: label, entry (Background), group (General)
+#: src/kmahjongg.kcfg:12
+#, kde-format
+msgid "The background to use."
+msgstr "A beállítani kívánt háttérkép."
+
+#. i18n: ectx: label, entry (Layout), group (General)
+#: src/kmahjongg.kcfg:15
+#, kde-format
+msgid "The layout of the tiles."
+msgstr "Az elemek elrendezése."
+
+#. i18n: ectx: label, entry (RemovedTiles), group (General)
+#: src/kmahjongg.kcfg:21
+#, kde-format
+msgid "Whether the removed tiles will be shown on the board."
+msgstr ""
+
+#. i18n: ectx: label, entry (RandomLayout), group (General)
+#: src/kmahjongg.kcfg:25
+#, kde-format
+msgid "Whether a random layout is chosen on startup."
+msgstr "Véletlenszerű elrendezés legyen-e kiválasztva kezdéskor."
+
+#. i18n: ectx: label, entry (SolvableGames), group (General)
+#: src/kmahjongg.kcfg:29
+#, kde-format
+msgid "Whether all games should be solvable."
+msgstr ""
+"Itt lehet kérni, hogy csak megoldható játékokat ajánljon fel a program."
+
+#. i18n: ectx: label, entry (ShowMatchingTiles), group (General)
+#: src/kmahjongg.kcfg:33
+#, kde-format
+msgid "Whether matching tiles are shown."
+msgstr "Itt lehet megadni, hogy a program megmutassa-e a párba illő elemeket."
+
+#. i18n: ectx: Menu (game)
+#: src/kmahjonggui.rc:10
+#, kde-format
+msgid "&Game"
+msgstr "&Játék"
+
+#. i18n: ectx: Menu (move)
+#: src/kmahjonggui.rc:14
+#, kde-format
+msgid "&Move"
+msgstr "&Lépés"
+
+#. i18n: ectx: Menu (view)
+#: src/kmahjonggui.rc:17
+#, kde-format
+msgid "&View"
+msgstr "Né&zet"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: src/kmahjonggui.rc:23
+#, kde-format
+msgid "Main Toolbar"
+msgstr "Alap eszköztár"
+
+#: src/main.cpp:29
+#, kde-format
+msgid "KMahjongg"
+msgstr "KMahjongg"
+
+#: src/main.cpp:31
+#, fuzzy, kde-format
+#| msgid "Mahjongg Solitaire for KDE"
+msgid "Mahjongg Solitaire by KDE"
+msgstr "KDE-s Mahjongg"
+
+#: src/main.cpp:33
+#, kde-format
+msgid ""
+"(c) 1997, Mathias Mueller\n"
+"(c) 2006, Mauricio Piacentini\n"
+"(c) 2011, Christian Krippendorf"
+msgstr ""
+"(c) Mathias Mueller, 1997.\n"
+"(c) Mauricio Piacentini, 2006.\n"
+"(c) Christian Krippendorf, 2011."
+
+#: src/main.cpp:35
+#, kde-format
+msgid "Mathias Mueller"
+msgstr "Mathias Mueller"
+
+#: src/main.cpp:35
+#, kde-format
+msgid "Original Author"
+msgstr "Az eredeti szerző"
+
+#: src/main.cpp:36
+#, kde-format
+msgid "Christian Krippendorf"
+msgstr "Christian Krippendorf"
+
+#: src/main.cpp:36
+#, kde-format
+msgid "Current maintainer"
+msgstr "Jelenlegi karbantartó"
+
+#: src/main.cpp:37
+#, kde-format
+msgid "Albert Astals Cid"
+msgstr "Albert Astals Cid"
+
+#: src/main.cpp:37
+#, kde-format
+msgid "Bug fixes"
+msgstr "Hibajavítások"
+
+#: src/main.cpp:38
+#, kde-format
+msgid "David Black"
+msgstr "David Black"
+
+#: src/main.cpp:38
+#, kde-format
+msgid "KDE 3 rewrite and Extension"
+msgstr "Újraírta és kibővítette a KDE3-hoz"
+
+#: src/main.cpp:39
+#, kde-format
+msgid "Michael Haertjens"
+msgstr "Michael Haertjens"
+
+#: src/main.cpp:39
+#, kde-format
+msgid ""
+"Solvable game generation\n"
+"based on algorithm by Michael Meeks in GNOME mahjongg"
+msgstr ""
+"Megoldható játékok generálása\n"
+"Michael Meeks (GNOME mahjongg) algoritmusa alapján"
+
+#: src/main.cpp:40
+#, kde-format
+msgid "Raquel Ravanini"
+msgstr "Raquel Ravanini"
+
+#: src/main.cpp:40
+#, kde-format
+msgid "SVG Tileset for KDE4"
+msgstr "SVG elemkészlet a KDE4-hez"
+
+#: src/main.cpp:41
+#, kde-format
+msgid "Richard Lohman"
+msgstr "Richard Lohman"
+
+#: src/main.cpp:41
+#, kde-format
+msgid "Tile set contributor and current web page maintainer"
+msgstr "Elemkészlet-tervező és a honlap karbantartója"
+
+#: src/main.cpp:42
+#, kde-format
+msgid "Osvaldo Stark"
+msgstr "Osvaldo Stark"
+
+#: src/main.cpp:42
+#, kde-format
+msgid "Tile set contributor and original web page maintainer"
+msgstr "Elemkészlettervező és a honlap karbantartója"
+
+#: src/main.cpp:43
+#, kde-format
+msgid "Benjamin Meyer"
+msgstr "Benjamin Meyer"
+
+#: src/main.cpp:43
+#, kde-format
+msgid "Code cleanup"
+msgstr "Kódtisztítás"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowMatchingTiles)
+#: src/settings.ui:22
+#, kde-format
+msgid "Blink matching tiles when first one is selected"
+msgstr "A kijelölt elem párjának villogtatása"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SolvableGames)
+#: src/settings.ui:29
+#, kde-format
+msgid "Generate solvable games"
+msgstr "Csak megoldható játékok"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_RemovedTiles)
+#: src/settings.ui:36
+#, fuzzy, kde-format
+#| msgid "Remove tiles"
+msgid "Show removed tiles"
+msgstr "Elemek eltávolítása"
+
+#~ msgid "Sorry, you have lost the game."
+#~ msgstr "Ön vesztett."
+
+#~ msgid "Now it is you again."
+#~ msgstr "Ó, egy régi ismerős."
+
+#~ msgid "Congratulations. You have won!"
+#~ msgstr "Gratulálok! Ön győzött!"
+
+#~ msgid "Error converting board information!"
+#~ msgstr "Hiba történt a táblajellemzők konvertálása közben."
+
+#~ msgid "Only saving to local files currently supported."
+#~ msgstr "Jelenleg csak helyi fájlokat lehet megadni."
+
+#~ msgid "Could not write saved game."
+#~ msgstr "Nem sikerült elmenteni a játékállást."
+
+#~ msgid "Mauricio Piacentini"
+#~ msgstr "Mauricio Piacentini"
